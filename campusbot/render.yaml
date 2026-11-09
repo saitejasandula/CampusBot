@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: campusbot-backend
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: EMBEDDING_PROVIDER
+        value: gemini
+      - key: EMBEDDING_MODEL
+        value: models/text-embedding-004
+      - key: MODEL_NAME
+        value: gemini-1.5-flash
+      - key: SIMILARITY_THRESHOLD
+        value: "0.45"
+      - key: ADMIN_KEY
+        generateValue: true
+      - key: ALLOWED_ORIGINS
+        value: "*"
+      - key: GOOGLE_API_KEY
+        sync: false

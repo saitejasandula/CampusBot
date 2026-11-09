@@ -1,0 +1,41 @@
+# Environment variables & secrets (NEVER commit these!)
+.env
+.env.local
+*.env
+
+# Python virtual environment & cache
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Node.js dependencies & build output
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database & Chroma storage (ephemeral/local data)
+*.db
+*.sqlite
+*.sqlite3
+data/chroma_db/
+data/campusbot.db
+backend/data/chroma_db/
+backend/data/campusbot.db
+
+# Logs
+*.log
+test_run.log
+
+# IDE & OS specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

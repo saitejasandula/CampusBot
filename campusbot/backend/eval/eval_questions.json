@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "question": "What is the minimum aggregate percentage required in 12th PCM for B.Tech admission at GIT?",
+    "category": "admissions",
+    "is_out_of_scope": false,
+    "expected_keywords": ["60%", "55%"]
+  },
+  {
+    "id": 2,
+    "question": "What are the two admission pathways to join B.Tech programs?",
+    "category": "admissions",
+    "is_out_of_scope": false,
+    "expected_keywords": ["GIT-EEE", "JEE Main"]
+  },
+  {
+    "id": 3,
+    "question": "What is the expected JEE Main cutoff percentile for B.Tech CSE?",
+    "category": "admissions",
+    "is_out_of_scope": false,
+    "expected_keywords": ["93.5"]
+  },
+  {
+    "id": 4,
+    "question": "When does the online application portal open and close for 2026 admissions?",
+    "category": "admissions",
+    "is_out_of_scope": false,
+    "expected_keywords": ["February 15", "May 31"]
+  },
+  {
+    "id": 5,
+    "question": "What is the application fee for domestic students applying to GIT?",
+    "category": "admissions",
+    "is_out_of_scope": false,
+    "expected_keywords": ["1,500", "1500"]
+  },
+  {
+    "id": 6,
+    "question": "What is the annual tuition fee for B.Tech in Computer Science and Engineering?",
+    "category": "fees",
+    "is_out_of_scope": false,
+    "expected_keywords": ["2,20,000", "1,10,000"]
+  },
+  {
+    "id": 7,
+    "question": "How much is the one-time refundable caution deposit during admission?",
+    "category": "fees",
+    "is_out_of_scope": false,
+    "expected_keywords": ["15,000", "15000"]
+  },
+  {
+    "id": 8,
+    "question": "What are the hostel charges for a Premium AC double sharing room?",
+    "category": "fees",
+    "is_out_of_scope": false,
+    "expected_keywords": ["1,20,000", "120000"]
+  },
+  {
+    "id": 9,
+    "question": "What is the late fee penalty per day after the 7-day grace period?",
+    "category": "fees",
+    "is_out_of_scope": false,
+    "expected_keywords": ["200"]
+  },
+  {
+    "id": 10,
+    "question": "What scholarship provides a 100% tuition waiver at GIT?",
+    "category": "fees",
+    "is_out_of_scope": false,
+    "expected_keywords": ["Chairman", "GIT-EEE", "98"]
+  },
+  {
+    "id": 11,
+    "question": "What is the minimum mandatory attendance percentage required to sit for semester examinations?",
+    "category": "exams",
+    "is_out_of_scope": false,
+    "expected_keywords": ["75%"]
+  },
+  {
+    "id": 12,
+    "question": "What is the medical condonation attendance threshold for semester exams?",
+    "category": "exams",
+    "is_out_of_scope": false,
+    "expected_keywords": ["65%"]
+  },
+  {
+    "id": 13,
+    "question": "How many marks are allocated to Continuous Internal Evaluation and End-Semester Exam?",
+    "category": "exams",
+    "is_out_of_scope": false,
+    "expected_keywords": ["50", "CIE", "ESE"]
+  },
+  {
+    "id": 14,
+    "question": "What is the minimum score required in the End-Semester Examination to pass a theory course?",
+    "category": "exams",
+    "is_out_of_scope": false,
+    "expected_keywords": ["40%", "20"]
+  },
+  {
+    "id": 15,
+    "question": "What is the fee per subject to request answer script re-evaluation?",
+    "category": "exams",
+    "is_out_of_scope": false,
+    "expected_keywords": ["600"]
+  },
+  {
+    "id": 16,
+    "question": "What was the highest international placement package for the Class of 2025?",
+    "category": "placements",
+    "is_out_of_scope": false,
+    "expected_keywords": ["115,000", "96.5 LPA"]
+  },
+  {
+    "id": 17,
+    "question": "What was the average placement package for CSE and AI/DS graduates?",
+    "category": "placements",
+    "is_out_of_scope": false,
+    "expected_keywords": ["15.6 LPA", "15.6"]
+  },
+  {
+    "id": 18,
+    "question": "What is the minimum CGPA required to register for campus placements?",
+    "category": "placements",
+    "is_out_of_scope": false,
+    "expected_keywords": ["6.50", "6.5"]
+  },
+  {
+    "id": 19,
+    "question": "What package threshold qualifies as a Super Dream tier job offer?",
+    "category": "placements",
+    "is_out_of_scope": false,
+    "expected_keywords": ["14.0 LPA", "14"]
+  },
+  {
+    "id": 20,
+    "question": "How many total job offers were received by the graduating class of 2025?",
+    "category": "placements",
+    "is_out_of_scope": false,
+    "expected_keywords": ["812"]
+  },
+  {
+    "id": 21,
+    "question": "What are the Central Library working hours on weekdays?",
+    "category": "faq",
+    "is_out_of_scope": false,
+    "expected_keywords": ["8:00 AM", "11:00 PM"]
+  },
+  {
+    "id": 22,
+    "question": "What is the hostel in-time curfew on weeknights?",
+    "category": "faq",
+    "is_out_of_scope": false,
+    "expected_keywords": ["9:30 PM"]
+  },
+  {
+    "id": 23,
+    "question": "What is the name and month of GIT's annual cultural festival?",
+    "category": "faq",
+    "is_out_of_scope": false,
+    "expected_keywords": ["Aura", "February"]
+  },
+  {
+    "id": 24,
+    "question": "How much does the annual college bus transportation pass cost?",
+    "category": "faq",
+    "is_out_of_scope": false,
+    "expected_keywords": ["26,000", "26000"]
+  },
+  {
+    "id": 25,
+    "question": "What is the 24/7 campus Anti-Ragging Helpline phone number?",
+    "category": "faq",
+    "is_out_of_scope": false,
+    "expected_keywords": ["1800-425-9988", "425-9988"]
+  },
+  {
+    "id": 26,
+    "question": "How do I bake a gluten-free chocolate lava cake?",
+    "category": "out_of_scope",
+    "is_out_of_scope": true,
+    "expected_keywords": ["couldn't find", "not find", "college documents"]
+  },
+  {
+    "id": 27,
+    "question": "What is the current population and capital city of Australia?",
+    "category": "out_of_scope",
+    "is_out_of_scope": true,
+    "expected_keywords": ["couldn't find", "not find", "college documents"]
+  },
+  {
+    "id": 28,
+    "question": "Who won the FIFA Men's World Cup in Qatar in 2022?",
+    "category": "out_of_scope",
+    "is_out_of_scope": true,
+    "expected_keywords": ["couldn't find", "not find", "college documents"]
+  },
+  {
+    "id": 29,
+    "question": "Can you provide the source code to implement a red-black tree in C++?",
+    "category": "out_of_scope",
+    "is_out_of_scope": true,
+    "expected_keywords": ["couldn't find", "not find", "college documents"]
+  },
+  {
+    "id": 30,
+    "question": "What are the rules and scoring system for professional baseball in MLB?",
+    "category": "out_of_scope",
+    "is_out_of_scope": true,
+    "expected_keywords": ["couldn't find", "not find", "college documents"]
+  }
+]

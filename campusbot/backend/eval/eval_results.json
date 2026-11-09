@@ -1,0 +1,702 @@
+{
+  "summary": {
+    "total_questions": 30,
+    "in_scope_count": 25,
+    "out_of_scope_count": 5,
+    "similarity_threshold": 0.45,
+    "llm_in_scope_accuracy": 4.0,
+    "rag_in_scope_accuracy": 96.0,
+    "llm_oos_refusal_rate": 100.0,
+    "rag_oos_refusal_rate": 100.0,
+    "llm_overall_accuracy": 20.0,
+    "rag_overall_accuracy": 96.66666666666667,
+    "llm_avg_latency_ms": 0.0019066714836905399,
+    "rag_avg_latency_ms": 51.89001666731201
+  },
+  "details": [
+    {
+      "id": 1,
+      "question": "What is the minimum aggregate percentage required in 12th PCM for B.Tech admission at GIT?",
+      "category": "admissions",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 1,
+        "latency": 2.200016751885414e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 1,
+        "latency": 0.9388120000367053,
+        "passed": true,
+        "answer": "Relevant information from admissions.md:\n\n## Postgraduate Programs (M.Tech and MBA)\n- M.Tech in Software Engineering, VLSI Design, and Thermal Engineering: Requires a relevant B.E./B.Tech degree with minimum 60% marks and a valid GATE score. Non-GATE candidates must qualify in the GIT Graduate Assessment Test (GIT-GAT).\n- Master of Business Administration (MBA): Requires a recognized 3-year bachelor's degree with 55% marks, plus valid CAT, XAT, or MAT scores followed by Group Discussion and Personal Interview.\n\n### B.Tech Eligibility Criteria\nCandidates seeking admission to the First Year B.Tech program must satisfy:\n1. Academic Qualifications: Completion of Higher Secondary Certificate (Class 12 / 10+2) examination from a recognized board (CBSE, ICSE, or State Boards) with Physics and Mathematics as mandatory subjects along with Chemistry, Biotechnology, or Computer Science.\n2. Minimum Aggregate: A minimum of 60% aggregate marks in the PCM subjects (55% for SC/ST/PwD candidates).\n3. Age Limit: Applicants must not be older than 21 years as of July 1, 2026.\n\n# Greenfield Institute of Technology - Admissions Guide 2026-2027\n\nWelcome to Greenfield Institute of Technology (GIT). This document outlines the official admission policies, eligibility criteria, application schedules, and procedures for undergraduate and postgraduate programs for the 2026-2027 academic session.\n\n## Undergraduate Programs (B.Tech)\nGIT offers four-year Bachelor of Technology (B.Tech) degrees in the following branches:\n- Computer Science and Engineering (CSE) - 240 seats\n- Artificial Intelligence & Data Science (AI & DS) - 120 seats\n- Electronics and Communication Engineering (ECE) - 180 seats\n- Mechanical Engineering (ME) - 120 seats\n- Civil & Environmental Engineering (CEE) - 60 seats\n\n### Entrance Pathways and Cutoffs\nAdmission is conducted strictly on merit through two primary routes:\n- GIT Entrance Engineering Examination (GIT-EEE): 60% of total seats are filled through GIT-EEE rank list.\n- National JEE Main Channel: 40% of seats are reserved for JEE Main candidates. Expected cutoffs:\n  - B.Tech CSE: 93.5 percentile or above\n  - B.Tech AI & DS: 91.0 percentile or above\n  - B.Tech ECE: 85.0 percentile or above\n  - B.Tech Mechanical & Civil: 75.0 percentile or above",
+        "sources": [
+          "admissions.md"
+        ],
+        "similarity": 0.6096940040588379
+      }
+    },
+    {
+      "id": 2,
+      "question": "What are the two admission pathways to join B.Tech programs?",
+      "category": "admissions",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 2,
+        "latency": 3.00002284348011e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 2,
+        "latency": 0.023491300002206117,
+        "passed": false,
+        "answer": "Relevant information from admissions.md, fees.md:\n\n### B.Tech Eligibility Criteria\nCandidates seeking admission to the First Year B.Tech program must satisfy:\n1. Academic Qualifications: Completion of Higher Secondary Certificate (Class 12 / 10+2) examination from a recognized board (CBSE, ICSE, or State Boards) with Physics and Mathematics as mandatory subjects along with Chemistry, Biotechnology, or Computer Science.\n2. Minimum Aggregate: A minimum of 60% aggregate marks in the PCM subjects (55% for SC/ST/PwD candidates).\n3. Age Limit: Applicants must not be older than 21 years as of July 1, 2026.\n\n### 1. Undergraduate (B.Tech) Programs\n- Computer Science & Engineering (CSE): INR 2,20,000 per annum (INR 1,10,000 per semester)\n- Artificial Intelligence & Data Science (AI & DS): INR 2,10,000 per annum (INR 1,05,000 per semester)\n- Electronics & Communication Engineering (ECE): INR 1,90,000 per annum (INR 95,000 per semester)\n- Mechanical Engineering & Civil Engineering: INR 1,60,000 per annum (INR 80,000 per semester)\n\n### 2. Postgraduate Programs\n- M.Tech (All Specializations): INR 1,40,000 per annum (INR 70,000 per semester)\n- Master of Business Administration (MBA): INR 2,50,000 per annum (INR 1,25,000 per semester)\n\n# Greenfield Institute of Technology - Admissions Guide 2026-2027\n\nWelcome to Greenfield Institute of Technology (GIT). This document outlines the official admission policies, eligibility criteria, application schedules, and procedures for undergraduate and postgraduate programs for the 2026-2027 academic session.\n\n## Undergraduate Programs (B.Tech)\nGIT offers four-year Bachelor of Technology (B.Tech) degrees in the following branches:\n- Computer Science and Engineering (CSE) - 240 seats\n- Artificial Intelligence & Data Science (AI & DS) - 120 seats\n- Electronics and Communication Engineering (ECE) - 180 seats\n- Mechanical Engineering (ME) - 120 seats\n- Civil & Environmental Engineering (CEE) - 60 seats\n\n## Postgraduate Programs (M.Tech and MBA)\n- M.Tech in Software Engineering, VLSI Design, and Thermal Engineering: Requires a relevant B.E./B.Tech degree with minimum 60% marks and a valid GATE score. Non-GATE candidates must qualify in the GIT Graduate Assessment Test (GIT-GAT).\n- Master of Business Administration (MBA): Requires a recognized 3-year bachelor's degree with 55% marks, plus valid CAT, XAT, or MAT scores followed by Group Discussion and Personal Interview.",
+        "sources": [
+          "admissions.md",
+          "fees.md"
+        ],
+        "similarity": 0.5885588824748993
+      }
+    },
+    {
+      "id": 3,
+      "question": "What is the expected JEE Main cutoff percentile for B.Tech CSE?",
+      "category": "admissions",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 3,
+        "latency": 2.200016751885414e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 3,
+        "latency": 0.024047500046435744,
+        "passed": true,
+        "answer": "Relevant information from admissions.md, exams.md, fees.md, placements.md:\n\n### Entrance Pathways and Cutoffs\nAdmission is conducted strictly on merit through two primary routes:\n- GIT Entrance Engineering Examination (GIT-EEE): 60% of total seats are filled through GIT-EEE rank list.\n- National JEE Main Channel: 40% of seats are reserved for JEE Main candidates. Expected cutoffs:\n  - B.Tech CSE: 93.5 percentile or above\n  - B.Tech AI & DS: 91.0 percentile or above\n  - B.Tech ECE: 85.0 percentile or above\n  - B.Tech Mechanical & Civil: 75.0 percentile or above\n\n### 1. Undergraduate (B.Tech) Programs\n- Computer Science & Engineering (CSE): INR 2,20,000 per annum (INR 1,10,000 per semester)\n- Artificial Intelligence & Data Science (AI & DS): INR 2,10,000 per annum (INR 1,05,000 per semester)\n- Electronics & Communication Engineering (ECE): INR 1,90,000 per annum (INR 95,000 per semester)\n- Mechanical Engineering & Civil Engineering: INR 1,60,000 per annum (INR 80,000 per semester)\n\n### 2. Postgraduate Programs\n- M.Tech (All Specializations): INR 1,40,000 per annum (INR 70,000 per semester)\n- Master of Business Administration (MBA): INR 2,50,000 per annum (INR 1,25,000 per semester)\n\n## Placement Performance Overview (Class of 2025)\nThe graduating batch of 2025 witnessed record-setting participation from leading international corporations and innovative tech startups:\n- Total Eligible Registered Students: 680\n- Total Job Offers Extended: 812 (including 132 multi-offer achievements)\n- Overall Placement Rate: 94.2% across engineering disciplines\n- Highest International Package: USD 115,000 (INR 96.5 LPA) by a Silicon Valley cloud provider\n- Highest Domestic Package: INR 48.0 LPA by a Tier-1 Fintech major\n- Average Package (Overall Campus): INR 11.2 LPA\n- Average Package for CSE & AI/DS: INR 15.6 LPA\n- Median Package: INR 9.8 LPA\n- Total Companies Visiting: 164 companies\n\n## Evaluation Scheme and Weightage\nEvery lecture course carries a total of 100 marks divided equally between internal continuous evaluation and external final examination:\n1. Continuous Internal Evaluation (CIE) - 50 Marks:\n   - Mid-Term Examinations (Best of two tests): 30 marks\n   - Quizzes, Surprise Tests, and Class Participation: 10 marks\n   - Home Assignments and Mini-Projects: 10 marks\n2. End-Semester Examination (ESE) - 50 Marks:\n   - Comprehensive written test covering the complete semester syllabus.\n\n### Passing Criteria\nTo pass a registered theory or lab course, a student must secure:\n- A minimum of 40% marks in the End-Semester Examination (20 out of 50 marks).\n- A minimum aggregate of 45% marks combining CIE and ESE.",
+        "sources": [
+          "admissions.md",
+          "exams.md",
+          "fees.md",
+          "placements.md"
+        ],
+        "similarity": 0.7011065483093262
+      }
+    },
+    {
+      "id": 4,
+      "question": "When does the online application portal open and close for 2026 admissions?",
+      "category": "admissions",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 4,
+        "latency": 2.100015990436077e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 4,
+        "latency": 0.027558700006920844,
+        "passed": true,
+        "answer": "Relevant information from admissions.md, exams.md, placements.md:\n\n## Important Admission Dates (2026)\n- Online Application Portal Opens: February 15, 2026\n- Application Submission Deadline: May 31, 2026 (11:59 PM IST)\n- GIT-EEE Examination Dates: June 15 to June 18, 2026 (Computer-Based Test)\n- Announcement of Results & Merit List: June 28, 2026\n- Phase 1 Counseling & Seat Allocation: July 5 to July 10, 2026\n- Orientation and Document Verification: August 1, 2026\n- Commencement of Classes: August 10, 2026\n\n## Application Procedure & Fee\n1. Visit the admissions portal at https://admissions.greenfield.edu.\n2. Register an account, fill in personal and educational details, and upload scanned documents.\n3. Pay the non-refundable application fee: INR 1,500 (USD 50 for international applicants) online via debit/credit card or UPI.\n4. Download the confirmation slip and admit card when released.\n\n## Semester Structure and Examination Schedule\nGIT operates on a Choice-Based Credit System (CBCS) across two main semesters per year:\n- Autumn Semester: August to December.\n  - Mid-Term 1 (CIE-I): Last week of September.\n  - Mid-Term 2 (CIE-II): Second week of November.\n  - Practical & Laboratory Exams: First week of December.\n  - End-Semester Theory Examination (ESE): December 10 to December 24.\n- Spring Semester: January to May.\n  - Mid-Term 1 (CIE-I): Fourth week of February.\n  - Mid-Term 2 (CIE-II): First week of April.\n  - Practical & Laboratory Exams: First week of May.\n  - End-Semester Theory Examination (ESE): May 12 to May 26.\n- Summer Remedial Term: June 15 to July 15 (reserved for students clearing backlogs or pursuing fast-track credits).\n\n## Placement Performance Overview (Class of 2025)\nThe graduating batch of 2025 witnessed record-setting participation from leading international corporations and innovative tech startups:\n- Total Eligible Registered Students: 680\n- Total Job Offers Extended: 812 (including 132 multi-offer achievements)\n- Overall Placement Rate: 94.2% across engineering disciplines\n- Highest International Package: USD 115,000 (INR 96.5 LPA) by a Silicon Valley cloud provider\n- Highest Domestic Package: INR 48.0 LPA by a Tier-1 Fintech major\n- Average Package (Overall Campus): INR 11.2 LPA\n- Average Package for CSE & AI/DS: INR 15.6 LPA\n- Median Package: INR 9.8 LPA\n- Total Companies Visiting: 164 companies",
+        "sources": [
+          "admissions.md",
+          "exams.md",
+          "placements.md"
+        ],
+        "similarity": 0.7034378051757812
+      }
+    },
+    {
+      "id": 5,
+      "question": "What is the application fee for domestic students applying to GIT?",
+      "category": "admissions",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 5,
+        "latency": 2.200016751885414e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 5,
+        "latency": 0.017428599996492267,
+        "passed": true,
+        "answer": "Relevant information from admissions.md, fees.md:\n\n# Greenfield Institute of Technology - Fee Structure & Scholarship Policy (2026-2027)\n\nThis document provides a detailed breakdown of the tuition fees, residential charges, miscellaneous institutional fees, payment deadlines, refund policies, and scholarship provisions for all students enrolled at Greenfield Institute of Technology (GIT).\n\n## Annual Tuition Fee Schedule\nTuition fees are structured by academic program and are payable on a per-semester basis:\n\n## Application Procedure & Fee\n1. Visit the admissions portal at https://admissions.greenfield.edu.\n2. Register an account, fill in personal and educational details, and upload scanned documents.\n3. Pay the non-refundable application fee: INR 1,500 (USD 50 for international applicants) online via debit/credit card or UPI.\n4. Download the confirmation slip and admit card when released.\n\n## Scholarships and Financial Assistance\nGIT awards merit and need-based scholarships under the \"Greenfield Excellence Initiative\":\n- Chairman's Merit Scholarship: 100% tuition fee waiver for top 10 rankers in GIT-EEE or students scoring 98+ percentile in JEE Main.\n- Dean's Merit Award: 50% tuition fee reduction for students maintaining a CGPA of 9.2 or higher without backlogs.\n- Need-Cum-Merit Scholarship: 25% to 50% tuition concession for students whose total family income is below INR 4,50,000 per annum, subject to maintaining a minimum CGPA of 7.5.\n- Sports & Cultural Excellence Scholarship: 20% tuition concession for medalists at national or state recognized tournaments.\n\n## Additional Mandatory One-Time and Recurring Charges\n- Caution Deposit (Refundable upon graduation/clearance): INR 15,000 (one-time at admission)\n- Admission & Registration Fee: INR 10,000 (one-time, non-refundable)\n- Examination & Library Fee: INR 8,000 per annum\n- Student Development, Gymkhana & Cultural Activity Fee: INR 6,000 per annum\n- Mandatory Group Medical Insurance Cover: INR 2,500 per annum",
+        "sources": [
+          "admissions.md",
+          "fees.md"
+        ],
+        "similarity": 0.6250322163105011
+      }
+    },
+    {
+      "id": 6,
+      "question": "What is the annual tuition fee for B.Tech in Computer Science and Engineering?",
+      "category": "fees",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 6,
+        "latency": 2.100015990436077e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 6,
+        "latency": 0.021191800013184547,
+        "passed": true,
+        "answer": "Relevant information from admissions.md, fees.md:\n\n### 1. Undergraduate (B.Tech) Programs\n- Computer Science & Engineering (CSE): INR 2,20,000 per annum (INR 1,10,000 per semester)\n- Artificial Intelligence & Data Science (AI & DS): INR 2,10,000 per annum (INR 1,05,000 per semester)\n- Electronics & Communication Engineering (ECE): INR 1,90,000 per annum (INR 95,000 per semester)\n- Mechanical Engineering & Civil Engineering: INR 1,60,000 per annum (INR 80,000 per semester)\n\n### 2. Postgraduate Programs\n- M.Tech (All Specializations): INR 1,40,000 per annum (INR 70,000 per semester)\n- Master of Business Administration (MBA): INR 2,50,000 per annum (INR 1,25,000 per semester)\n\n# Greenfield Institute of Technology - Fee Structure & Scholarship Policy (2026-2027)\n\nThis document provides a detailed breakdown of the tuition fees, residential charges, miscellaneous institutional fees, payment deadlines, refund policies, and scholarship provisions for all students enrolled at Greenfield Institute of Technology (GIT).\n\n## Annual Tuition Fee Schedule\nTuition fees are structured by academic program and are payable on a per-semester basis:\n\n### B.Tech Eligibility Criteria\nCandidates seeking admission to the First Year B.Tech program must satisfy:\n1. Academic Qualifications: Completion of Higher Secondary Certificate (Class 12 / 10+2) examination from a recognized board (CBSE, ICSE, or State Boards) with Physics and Mathematics as mandatory subjects along with Chemistry, Biotechnology, or Computer Science.\n2. Minimum Aggregate: A minimum of 60% aggregate marks in the PCM subjects (55% for SC/ST/PwD candidates).\n3. Age Limit: Applicants must not be older than 21 years as of July 1, 2026.\n\n## Additional Mandatory One-Time and Recurring Charges\n- Caution Deposit (Refundable upon graduation/clearance): INR 15,000 (one-time at admission)\n- Admission & Registration Fee: INR 10,000 (one-time, non-refundable)\n- Examination & Library Fee: INR 8,000 per annum\n- Student Development, Gymkhana & Cultural Activity Fee: INR 6,000 per annum\n- Mandatory Group Medical Insurance Cover: INR 2,500 per annum",
+        "sources": [
+          "admissions.md",
+          "fees.md"
+        ],
+        "similarity": 0.588394045829773
+      }
+    },
+    {
+      "id": 7,
+      "question": "How much is the one-time refundable caution deposit during admission?",
+      "category": "fees",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 7,
+        "latency": 1.500011421740055e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 7,
+        "latency": 0.02072739996947348,
+        "passed": true,
+        "answer": "Relevant information from admissions.md, exams.md, fees.md:\n\n## Additional Mandatory One-Time and Recurring Charges\n- Caution Deposit (Refundable upon graduation/clearance): INR 15,000 (one-time at admission)\n- Admission & Registration Fee: INR 10,000 (one-time, non-refundable)\n- Examination & Library Fee: INR 8,000 per annum\n- Student Development, Gymkhana & Cultural Activity Fee: INR 6,000 per annum\n- Mandatory Group Medical Insurance Cover: INR 2,500 per annum\n\n## Application Procedure & Fee\n1. Visit the admissions portal at https://admissions.greenfield.edu.\n2. Register an account, fill in personal and educational details, and upload scanned documents.\n3. Pay the non-refundable application fee: INR 1,500 (USD 50 for international applicants) online via debit/credit card or UPI.\n4. Download the confirmation slip and admit card when released.\n\n## Backlog Clearance, Re-evaluation, and Unfair Means\n- Supplementary Exams: Conducted every July and January alongside regular term exams. Fee: INR 750 per paper.\n- Re-evaluation & Script Viewing: Students can request a photocopy of evaluated answer booklets within 7 calendar days of result declaration for INR 300, or apply for full re-evaluation for INR 600 per paper.\n- Unfair Means (UFM): Possession of smartwatches, cell phones, or cheat chits in exam halls results in immediate cancellation of all registered exams for the semester, with referral to the Proctorial Board.\n\n## Payment Due Dates and Late Fee Penalties\n- Autumn (Odd) Semester: Due on or before July 25.\n- Spring (Even) Semester: Due on or before December 20.\n- Late Payment Penalty:\n  - Days 1 to 7 after due date: Grace period with zero penalty.\n  - Days 8 to 21 after due date: Late surcharge of INR 200 per day.\n  - Beyond 21 days: Temporary deactivation of campus ERP credentials and library checkout rights until clearance.",
+        "sources": [
+          "admissions.md",
+          "exams.md",
+          "fees.md"
+        ],
+        "similarity": 0.5949310660362244
+      }
+    },
+    {
+      "id": 8,
+      "question": "What are the hostel charges for a Premium AC double sharing room?",
+      "category": "fees",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 8,
+        "latency": 1.6999547369778156e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 8,
+        "latency": 0.01949339994462207,
+        "passed": true,
+        "answer": "Relevant information from faq.md, fees.md, placements.md:\n\n## Hostel Accommodation and Mess Charges\nLiving on campus is optional for day scholars but mandatory for outstation first-year students:\n- Premium Double Sharing (Air Conditioned with attached bath): INR 1,20,000 per academic year\n- Standard Double Sharing (Non-AC with common bath): INR 85,000 per academic year\n- Triple Sharing Room (Non-AC): INR 65,000 per academic year\n- Annual Mess Charges (Four meals daily: Breakfast, Lunch, Evening Snacks, Dinner): INR 52,000 per academic year\n- Hostel Security Deposit: INR 5,000 (Refundable)\n\n## Additional Mandatory One-Time and Recurring Charges\n- Caution Deposit (Refundable upon graduation/clearance): INR 15,000 (one-time at admission)\n- Admission & Registration Fee: INR 10,000 (one-time, non-refundable)\n- Examination & Library Fee: INR 8,000 per annum\n- Student Development, Gymkhana & Cultural Activity Fee: INR 6,000 per annum\n- Mandatory Group Medical Insurance Cover: INR 2,500 per annum\n\n**Q: How do students connect to campus Wi-Fi?**  \nA: Connect to the SSID `GIT-CampusNet` or `GIT-HostelNet`. Authenticate using your student ERP roll number and default initial password (`Git@<DateOfBirth_DDMMYYYY>`). Network access provides high-speed 1 Gbps fiber connectivity. For connection issues, contact `it-support@greenfield.edu` or visit Room 104 in the Computer Center.\n\n## 2. Residential Regulations and Hostel Life\n**Q: What is the hostel curfew and in-time rule?**  \nA: For student safety, residential hostels enforce a strict in-time of 9:30 PM from Monday through Friday, and 10:30 PM on Saturdays and Sundays. Biometric thumb verification is recorded at hostel gates.\n\n## Internship Season and Pre-Placement Offers (PPOs)\n- Pre-Final Year Internships: Summer internships are scheduled during May-July (8 to 10 weeks) for third-year students. Average summer stipend for 2025 was INR 45,000 per month, with highest stipend reaching INR 1,25,000 per month.\n- PPO Conversion: 142 students converted their summer internships into full-time Pre-Placement Offers before regular placement season began.",
+        "sources": [
+          "faq.md",
+          "fees.md",
+          "placements.md"
+        ],
+        "similarity": 0.6709182262420654
+      }
+    },
+    {
+      "id": 9,
+      "question": "What is the late fee penalty per day after the 7-day grace period?",
+      "category": "fees",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 9,
+        "latency": 1.800013706088066e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 9,
+        "latency": 0.02292800002032891,
+        "passed": true,
+        "answer": "Relevant information from exams.md, fees.md:\n\n## Payment Due Dates and Late Fee Penalties\n- Autumn (Odd) Semester: Due on or before July 25.\n- Spring (Even) Semester: Due on or before December 20.\n- Late Payment Penalty:\n  - Days 1 to 7 after due date: Grace period with zero penalty.\n  - Days 8 to 21 after due date: Late surcharge of INR 200 per day.\n  - Beyond 21 days: Temporary deactivation of campus ERP credentials and library checkout rights until clearance.\n\n## Backlog Clearance, Re-evaluation, and Unfair Means\n- Supplementary Exams: Conducted every July and January alongside regular term exams. Fee: INR 750 per paper.\n- Re-evaluation & Script Viewing: Students can request a photocopy of evaluated answer booklets within 7 calendar days of result declaration for INR 300, or apply for full re-evaluation for INR 600 per paper.\n- Unfair Means (UFM): Possession of smartwatches, cell phones, or cheat chits in exam halls results in immediate cancellation of all registered exams for the semester, with referral to the Proctorial Board.\n\n## Fee Refund Policy\nWithdrawals submitted via the ERP portal follow University Grants Commission guidelines:\n- 15 days or more prior to formally notified commencement of classes: 100% refund minus a processing charge of INR 1,000.\n- Less than 15 days before commencement: 90% refund.\n- Within 15 days after commencement of classes: 80% refund.\n- Between 16 and 30 days after commencement: 50% refund.\n- More than 30 days after commencement of classes: No tuition refund; only caution deposit refunded.",
+        "sources": [
+          "exams.md",
+          "fees.md"
+        ],
+        "similarity": 0.6631320714950562
+      }
+    },
+    {
+      "id": 10,
+      "question": "What scholarship provides a 100% tuition waiver at GIT?",
+      "category": "fees",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 10,
+        "latency": 1.600012183189392e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 10,
+        "latency": 0.022688900004141033,
+        "passed": true,
+        "answer": "Relevant information from admissions.md, fees.md, placements.md:\n\n## Scholarships and Financial Assistance\nGIT awards merit and need-based scholarships under the \"Greenfield Excellence Initiative\":\n- Chairman's Merit Scholarship: 100% tuition fee waiver for top 10 rankers in GIT-EEE or students scoring 98+ percentile in JEE Main.\n- Dean's Merit Award: 50% tuition fee reduction for students maintaining a CGPA of 9.2 or higher without backlogs.\n- Need-Cum-Merit Scholarship: 25% to 50% tuition concession for students whose total family income is below INR 4,50,000 per annum, subject to maintaining a minimum CGPA of 7.5.\n- Sports & Cultural Excellence Scholarship: 20% tuition concession for medalists at national or state recognized tournaments.\n\n# Greenfield Institute of Technology - Fee Structure & Scholarship Policy (2026-2027)\n\nThis document provides a detailed breakdown of the tuition fees, residential charges, miscellaneous institutional fees, payment deadlines, refund policies, and scholarship provisions for all students enrolled at Greenfield Institute of Technology (GIT).\n\n## Annual Tuition Fee Schedule\nTuition fees are structured by academic program and are payable on a per-semester basis:\n\n## \"One Student, One Job\" Policy & Upgrade Tiers\nTo ensure equitable career opportunities, GIT enforces a tiered placement policy:\n- Regular Tier: Offers up to INR 7.0 LPA.\n- Dream Tier: Offers between INR 7.1 LPA and INR 14.0 LPA.\n- Super Dream Tier: Offers exceeding INR 14.0 LPA.\n\nA student who secures an offer in the Regular tier is permitted to appear only for Dream and Super Dream companies. Once a student receives a Dream tier offer, they may only attempt Super Dream opportunities. Securing a Super Dream offer concludes the candidate's placement eligibility, ensuring other classmates can access available openings.\n\n# Greenfield Institute of Technology - Admissions Guide 2026-2027\n\nWelcome to Greenfield Institute of Technology (GIT). This document outlines the official admission policies, eligibility criteria, application schedules, and procedures for undergraduate and postgraduate programs for the 2026-2027 academic session.\n\n## Undergraduate Programs (B.Tech)\nGIT offers four-year Bachelor of Technology (B.Tech) degrees in the following branches:\n- Computer Science and Engineering (CSE) - 240 seats\n- Artificial Intelligence & Data Science (AI & DS) - 120 seats\n- Electronics and Communication Engineering (ECE) - 180 seats\n- Mechanical Engineering (ME) - 120 seats\n- Civil & Environmental Engineering (CEE) - 60 seats",
+        "sources": [
+          "admissions.md",
+          "fees.md",
+          "placements.md"
+        ],
+        "similarity": 0.7312753796577454
+      }
+    },
+    {
+      "id": 11,
+      "question": "What is the minimum mandatory attendance percentage required to sit for semester examinations?",
+      "category": "exams",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 11,
+        "latency": 1.500011421740055e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 11,
+        "latency": 0.019633100018836558,
+        "passed": true,
+        "answer": "Relevant information from exams.md, placements.md:\n\n## Attendance Requirement and Condonation\n- Mandatory Attendance: Every student must maintain at least 75% attendance in both lectures and practical sessions in each registered course.\n- Medical Condonation: Attendance between 65% and 74% may be condoned by the Dean of Academic Affairs strictly on certified medical grounds or authorized participation in inter-collegiate competitions. Medical certificates must be submitted to the Academic Cell within three working days of resuming classes.\n- Debarment: Students holding less than 65% attendance under any circumstances are strictly debarred from appearing in the ESE and awarded an 'NS' (Not Satisfied attendance) grade, requiring re-registration in the next academic year.\n\n## Placement Eligibility and Registration Rules\nTo participate in campus recruitment drives, students must adhere to the following guidelines:\n1. Academic Cutoff: Minimum cumulative CGPA of 6.50 at the end of the 6th semester. Specific premium recruiters require a CGPA of 7.50 or 8.00 without historical backlogs.\n2. Backlog Restrictions: Candidates must have zero active (standing) backlogs at the time of recruitment registration. Dead backlogs (cleared prior to 7th semester) are permissible subject to company policies.\n3. Attendance in Training: Mandatory 85% attendance in soft skills, quantitative aptitude, and mock technical interview training conducted during the 5th and 6th semesters.\n\n## Evaluation Scheme and Weightage\nEvery lecture course carries a total of 100 marks divided equally between internal continuous evaluation and external final examination:\n1. Continuous Internal Evaluation (CIE) - 50 Marks:\n   - Mid-Term Examinations (Best of two tests): 30 marks\n   - Quizzes, Surprise Tests, and Class Participation: 10 marks\n   - Home Assignments and Mini-Projects: 10 marks\n2. End-Semester Examination (ESE) - 50 Marks:\n   - Comprehensive written test covering the complete semester syllabus.\n\n### Passing Criteria\nTo pass a registered theory or lab course, a student must secure:\n- A minimum of 40% marks in the End-Semester Examination (20 out of 50 marks).\n- A minimum aggregate of 45% marks combining CIE and ESE.\n\n## Backlog Clearance, Re-evaluation, and Unfair Means\n- Supplementary Exams: Conducted every July and January alongside regular term exams. Fee: INR 750 per paper.\n- Re-evaluation & Script Viewing: Students can request a photocopy of evaluated answer booklets within 7 calendar days of result declaration for INR 300, or apply for full re-evaluation for INR 600 per paper.\n- Unfair Means (UFM): Possession of smartwatches, cell phones, or cheat chits in exam halls results in immediate cancellation of all registered exams for the semester, with referral to the Proctorial Board.",
+        "sources": [
+          "exams.md",
+          "placements.md"
+        ],
+        "similarity": 0.6347615420818329
+      }
+    },
+    {
+      "id": 12,
+      "question": "What is the medical condonation attendance threshold for semester exams?",
+      "category": "exams",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 12,
+        "latency": 1.700012944638729e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 12,
+        "latency": 0.01913319999584928,
+        "passed": true,
+        "answer": "Relevant information from exams.md, placements.md:\n\n## Attendance Requirement and Condonation\n- Mandatory Attendance: Every student must maintain at least 75% attendance in both lectures and practical sessions in each registered course.\n- Medical Condonation: Attendance between 65% and 74% may be condoned by the Dean of Academic Affairs strictly on certified medical grounds or authorized participation in inter-collegiate competitions. Medical certificates must be submitted to the Academic Cell within three working days of resuming classes.\n- Debarment: Students holding less than 65% attendance under any circumstances are strictly debarred from appearing in the ESE and awarded an 'NS' (Not Satisfied attendance) grade, requiring re-registration in the next academic year.\n\n## Backlog Clearance, Re-evaluation, and Unfair Means\n- Supplementary Exams: Conducted every July and January alongside regular term exams. Fee: INR 750 per paper.\n- Re-evaluation & Script Viewing: Students can request a photocopy of evaluated answer booklets within 7 calendar days of result declaration for INR 300, or apply for full re-evaluation for INR 600 per paper.\n- Unfair Means (UFM): Possession of smartwatches, cell phones, or cheat chits in exam halls results in immediate cancellation of all registered exams for the semester, with referral to the Proctorial Board.\n\n## Evaluation Scheme and Weightage\nEvery lecture course carries a total of 100 marks divided equally between internal continuous evaluation and external final examination:\n1. Continuous Internal Evaluation (CIE) - 50 Marks:\n   - Mid-Term Examinations (Best of two tests): 30 marks\n   - Quizzes, Surprise Tests, and Class Participation: 10 marks\n   - Home Assignments and Mini-Projects: 10 marks\n2. End-Semester Examination (ESE) - 50 Marks:\n   - Comprehensive written test covering the complete semester syllabus.\n\n### Passing Criteria\nTo pass a registered theory or lab course, a student must secure:\n- A minimum of 40% marks in the End-Semester Examination (20 out of 50 marks).\n- A minimum aggregate of 45% marks combining CIE and ESE.\n\n## Placement Eligibility and Registration Rules\nTo participate in campus recruitment drives, students must adhere to the following guidelines:\n1. Academic Cutoff: Minimum cumulative CGPA of 6.50 at the end of the 6th semester. Specific premium recruiters require a CGPA of 7.50 or 8.00 without historical backlogs.\n2. Backlog Restrictions: Candidates must have zero active (standing) backlogs at the time of recruitment registration. Dead backlogs (cleared prior to 7th semester) are permissible subject to company policies.\n3. Attendance in Training: Mandatory 85% attendance in soft skills, quantitative aptitude, and mock technical interview training conducted during the 5th and 6th semesters.",
+        "sources": [
+          "exams.md",
+          "placements.md"
+        ],
+        "similarity": 0.7202053666114807
+      }
+    },
+    {
+      "id": 13,
+      "question": "How many marks are allocated to Continuous Internal Evaluation and End-Semester Exam?",
+      "category": "exams",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 13,
+        "latency": 2.2999593056738377e-06,
+        "passed": true,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 13,
+        "latency": 0.021537400025408715,
+        "passed": true,
+        "answer": "Relevant information from exams.md:\n\n## Evaluation Scheme and Weightage\nEvery lecture course carries a total of 100 marks divided equally between internal continuous evaluation and external final examination:\n1. Continuous Internal Evaluation (CIE) - 50 Marks:\n   - Mid-Term Examinations (Best of two tests): 30 marks\n   - Quizzes, Surprise Tests, and Class Participation: 10 marks\n   - Home Assignments and Mini-Projects: 10 marks\n2. End-Semester Examination (ESE) - 50 Marks:\n   - Comprehensive written test covering the complete semester syllabus.\n\n### Passing Criteria\nTo pass a registered theory or lab course, a student must secure:\n- A minimum of 40% marks in the End-Semester Examination (20 out of 50 marks).\n- A minimum aggregate of 45% marks combining CIE and ESE.\n\n## Backlog Clearance, Re-evaluation, and Unfair Means\n- Supplementary Exams: Conducted every July and January alongside regular term exams. Fee: INR 750 per paper.\n- Re-evaluation & Script Viewing: Students can request a photocopy of evaluated answer booklets within 7 calendar days of result declaration for INR 300, or apply for full re-evaluation for INR 600 per paper.\n- Unfair Means (UFM): Possession of smartwatches, cell phones, or cheat chits in exam halls results in immediate cancellation of all registered exams for the semester, with referral to the Proctorial Board.\n\n## Semester Structure and Examination Schedule\nGIT operates on a Choice-Based Credit System (CBCS) across two main semesters per year:\n- Autumn Semester: August to December.\n  - Mid-Term 1 (CIE-I): Last week of September.\n  - Mid-Term 2 (CIE-II): Second week of November.\n  - Practical & Laboratory Exams: First week of December.\n  - End-Semester Theory Examination (ESE): December 10 to December 24.\n- Spring Semester: January to May.\n  - Mid-Term 1 (CIE-I): Fourth week of February.\n  - Mid-Term 2 (CIE-II): First week of April.\n  - Practical & Laboratory Exams: First week of May.\n  - End-Semester Theory Examination (ESE): May 12 to May 26.\n- Summer Remedial Term: June 15 to July 15 (reserved for students clearing backlogs or pursuing fast-track credits).\n\n## Grading System\nGIT uses a standard 10-point Letter Grading scale:\n- O (Outstanding): 90% and above -> Grade Point 10.0\n- A+ (Excellent): 80% to 89% -> Grade Point 9.0\n- A (Very Good): 70% to 79% -> Grade Point 8.0\n- B+ (Good): 60% to 69% -> Grade Point 7.0\n- B (Above Average): 55% to 59% -> Grade Point 6.0\n- C (Pass): 45% to 54% -> Grade Point 5.0\n- F (Fail): Below 45% -> Grade Point 0.0",
+        "sources": [
+          "exams.md"
+        ],
+        "similarity": 0.7740187048912048
+      }
+    },
+    {
+      "id": 14,
+      "question": "What is the minimum score required in the End-Semester Examination to pass a theory course?",
+      "category": "exams",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 14,
+        "latency": 1.500011421740055e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 14,
+        "latency": 0.021716699993703514,
+        "passed": true,
+        "answer": "Relevant information from admissions.md, exams.md, placements.md:\n\n## Evaluation Scheme and Weightage\nEvery lecture course carries a total of 100 marks divided equally between internal continuous evaluation and external final examination:\n1. Continuous Internal Evaluation (CIE) - 50 Marks:\n   - Mid-Term Examinations (Best of two tests): 30 marks\n   - Quizzes, Surprise Tests, and Class Participation: 10 marks\n   - Home Assignments and Mini-Projects: 10 marks\n2. End-Semester Examination (ESE) - 50 Marks:\n   - Comprehensive written test covering the complete semester syllabus.\n\n### Passing Criteria\nTo pass a registered theory or lab course, a student must secure:\n- A minimum of 40% marks in the End-Semester Examination (20 out of 50 marks).\n- A minimum aggregate of 45% marks combining CIE and ESE.\n\n### B.Tech Eligibility Criteria\nCandidates seeking admission to the First Year B.Tech program must satisfy:\n1. Academic Qualifications: Completion of Higher Secondary Certificate (Class 12 / 10+2) examination from a recognized board (CBSE, ICSE, or State Boards) with Physics and Mathematics as mandatory subjects along with Chemistry, Biotechnology, or Computer Science.\n2. Minimum Aggregate: A minimum of 60% aggregate marks in the PCM subjects (55% for SC/ST/PwD candidates).\n3. Age Limit: Applicants must not be older than 21 years as of July 1, 2026.\n\n## Semester Structure and Examination Schedule\nGIT operates on a Choice-Based Credit System (CBCS) across two main semesters per year:\n- Autumn Semester: August to December.\n  - Mid-Term 1 (CIE-I): Last week of September.\n  - Mid-Term 2 (CIE-II): Second week of November.\n  - Practical & Laboratory Exams: First week of December.\n  - End-Semester Theory Examination (ESE): December 10 to December 24.\n- Spring Semester: January to May.\n  - Mid-Term 1 (CIE-I): Fourth week of February.\n  - Mid-Term 2 (CIE-II): First week of April.\n  - Practical & Laboratory Exams: First week of May.\n  - End-Semester Theory Examination (ESE): May 12 to May 26.\n- Summer Remedial Term: June 15 to July 15 (reserved for students clearing backlogs or pursuing fast-track credits).\n\n## Placement Eligibility and Registration Rules\nTo participate in campus recruitment drives, students must adhere to the following guidelines:\n1. Academic Cutoff: Minimum cumulative CGPA of 6.50 at the end of the 6th semester. Specific premium recruiters require a CGPA of 7.50 or 8.00 without historical backlogs.\n2. Backlog Restrictions: Candidates must have zero active (standing) backlogs at the time of recruitment registration. Dead backlogs (cleared prior to 7th semester) are permissible subject to company policies.\n3. Attendance in Training: Mandatory 85% attendance in soft skills, quantitative aptitude, and mock technical interview training conducted during the 5th and 6th semesters.",
+        "sources": [
+          "admissions.md",
+          "exams.md",
+          "placements.md"
+        ],
+        "similarity": 0.6267074644565582
+      }
+    },
+    {
+      "id": 15,
+      "question": "What is the fee per subject to request answer script re-evaluation?",
+      "category": "exams",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 15,
+        "latency": 1.800013706088066e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 15,
+        "latency": 0.018953400023747236,
+        "passed": true,
+        "answer": "Relevant information from admissions.md, exams.md, fees.md:\n\n## Backlog Clearance, Re-evaluation, and Unfair Means\n- Supplementary Exams: Conducted every July and January alongside regular term exams. Fee: INR 750 per paper.\n- Re-evaluation & Script Viewing: Students can request a photocopy of evaluated answer booklets within 7 calendar days of result declaration for INR 300, or apply for full re-evaluation for INR 600 per paper.\n- Unfair Means (UFM): Possession of smartwatches, cell phones, or cheat chits in exam halls results in immediate cancellation of all registered exams for the semester, with referral to the Proctorial Board.\n\n## Additional Mandatory One-Time and Recurring Charges\n- Caution Deposit (Refundable upon graduation/clearance): INR 15,000 (one-time at admission)\n- Admission & Registration Fee: INR 10,000 (one-time, non-refundable)\n- Examination & Library Fee: INR 8,000 per annum\n- Student Development, Gymkhana & Cultural Activity Fee: INR 6,000 per annum\n- Mandatory Group Medical Insurance Cover: INR 2,500 per annum\n\n## Application Procedure & Fee\n1. Visit the admissions portal at https://admissions.greenfield.edu.\n2. Register an account, fill in personal and educational details, and upload scanned documents.\n3. Pay the non-refundable application fee: INR 1,500 (USD 50 for international applicants) online via debit/credit card or UPI.\n4. Download the confirmation slip and admit card when released.",
+        "sources": [
+          "admissions.md",
+          "exams.md",
+          "fees.md"
+        ],
+        "similarity": 0.47489941120147705
+      }
+    },
+    {
+      "id": 16,
+      "question": "What was the highest international placement package for the Class of 2025?",
+      "category": "placements",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 16,
+        "latency": 1.700012944638729e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 16,
+        "latency": 0.01923709997208789,
+        "passed": true,
+        "answer": "Relevant information from admissions.md, placements.md:\n\n## Placement Performance Overview (Class of 2025)\nThe graduating batch of 2025 witnessed record-setting participation from leading international corporations and innovative tech startups:\n- Total Eligible Registered Students: 680\n- Total Job Offers Extended: 812 (including 132 multi-offer achievements)\n- Overall Placement Rate: 94.2% across engineering disciplines\n- Highest International Package: USD 115,000 (INR 96.5 LPA) by a Silicon Valley cloud provider\n- Highest Domestic Package: INR 48.0 LPA by a Tier-1 Fintech major\n- Average Package (Overall Campus): INR 11.2 LPA\n- Average Package for CSE & AI/DS: INR 15.6 LPA\n- Median Package: INR 9.8 LPA\n- Total Companies Visiting: 164 companies\n\n## Important Admission Dates (2026)\n- Online Application Portal Opens: February 15, 2026\n- Application Submission Deadline: May 31, 2026 (11:59 PM IST)\n- GIT-EEE Examination Dates: June 15 to June 18, 2026 (Computer-Based Test)\n- Announcement of Results & Merit List: June 28, 2026\n- Phase 1 Counseling & Seat Allocation: July 5 to July 10, 2026\n- Orientation and Document Verification: August 1, 2026\n- Commencement of Classes: August 10, 2026\n\n# Greenfield Institute of Technology - Admissions Guide 2026-2027\n\nWelcome to Greenfield Institute of Technology (GIT). This document outlines the official admission policies, eligibility criteria, application schedules, and procedures for undergraduate and postgraduate programs for the 2026-2027 academic session.\n\n## Undergraduate Programs (B.Tech)\nGIT offers four-year Bachelor of Technology (B.Tech) degrees in the following branches:\n- Computer Science and Engineering (CSE) - 240 seats\n- Artificial Intelligence & Data Science (AI & DS) - 120 seats\n- Electronics and Communication Engineering (ECE) - 180 seats\n- Mechanical Engineering (ME) - 120 seats\n- Civil & Environmental Engineering (CEE) - 60 seats\n\n# Greenfield Institute of Technology - Training & Placement Office Report\n\nThe Training and Placement Cell (T&P Cell) at Greenfield Institute of Technology (GIT) facilitates summer internships, career mentorship, technical workshops, and campus recruitments. This report contains placement statistics, recruiter profiles, eligibility norms, and institutional placement regulations.",
+        "sources": [
+          "admissions.md",
+          "placements.md"
+        ],
+        "similarity": 0.6416037678718567
+      }
+    },
+    {
+      "id": 17,
+      "question": "What was the average placement package for CSE and AI/DS graduates?",
+      "category": "placements",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 17,
+        "latency": 1.700012944638729e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 17,
+        "latency": 0.019453799992334098,
+        "passed": true,
+        "answer": "Relevant information from admissions.md, fees.md, placements.md:\n\n## Placement Performance Overview (Class of 2025)\nThe graduating batch of 2025 witnessed record-setting participation from leading international corporations and innovative tech startups:\n- Total Eligible Registered Students: 680\n- Total Job Offers Extended: 812 (including 132 multi-offer achievements)\n- Overall Placement Rate: 94.2% across engineering disciplines\n- Highest International Package: USD 115,000 (INR 96.5 LPA) by a Silicon Valley cloud provider\n- Highest Domestic Package: INR 48.0 LPA by a Tier-1 Fintech major\n- Average Package (Overall Campus): INR 11.2 LPA\n- Average Package for CSE & AI/DS: INR 15.6 LPA\n- Median Package: INR 9.8 LPA\n- Total Companies Visiting: 164 companies\n\n### 1. Undergraduate (B.Tech) Programs\n- Computer Science & Engineering (CSE): INR 2,20,000 per annum (INR 1,10,000 per semester)\n- Artificial Intelligence & Data Science (AI & DS): INR 2,10,000 per annum (INR 1,05,000 per semester)\n- Electronics & Communication Engineering (ECE): INR 1,90,000 per annum (INR 95,000 per semester)\n- Mechanical Engineering & Civil Engineering: INR 1,60,000 per annum (INR 80,000 per semester)\n\n### 2. Postgraduate Programs\n- M.Tech (All Specializations): INR 1,40,000 per annum (INR 70,000 per semester)\n- Master of Business Administration (MBA): INR 2,50,000 per annum (INR 1,25,000 per semester)\n\n# Greenfield Institute of Technology - Admissions Guide 2026-2027\n\nWelcome to Greenfield Institute of Technology (GIT). This document outlines the official admission policies, eligibility criteria, application schedules, and procedures for undergraduate and postgraduate programs for the 2026-2027 academic session.\n\n## Undergraduate Programs (B.Tech)\nGIT offers four-year Bachelor of Technology (B.Tech) degrees in the following branches:\n- Computer Science and Engineering (CSE) - 240 seats\n- Artificial Intelligence & Data Science (AI & DS) - 120 seats\n- Electronics and Communication Engineering (ECE) - 180 seats\n- Mechanical Engineering (ME) - 120 seats\n- Civil & Environmental Engineering (CEE) - 60 seats\n\n### B.Tech Eligibility Criteria\nCandidates seeking admission to the First Year B.Tech program must satisfy:\n1. Academic Qualifications: Completion of Higher Secondary Certificate (Class 12 / 10+2) examination from a recognized board (CBSE, ICSE, or State Boards) with Physics and Mathematics as mandatory subjects along with Chemistry, Biotechnology, or Computer Science.\n2. Minimum Aggregate: A minimum of 60% aggregate marks in the PCM subjects (55% for SC/ST/PwD candidates).\n3. Age Limit: Applicants must not be older than 21 years as of July 1, 2026.",
+        "sources": [
+          "admissions.md",
+          "fees.md",
+          "placements.md"
+        ],
+        "similarity": 0.6239906251430511
+      }
+    },
+    {
+      "id": 18,
+      "question": "What is the minimum CGPA required to register for campus placements?",
+      "category": "placements",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 18,
+        "latency": 2.700020559132099e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 18,
+        "latency": 0.02229200000874698,
+        "passed": true,
+        "answer": "Relevant information from admissions.md, exams.md, placements.md:\n\n## Placement Eligibility and Registration Rules\nTo participate in campus recruitment drives, students must adhere to the following guidelines:\n1. Academic Cutoff: Minimum cumulative CGPA of 6.50 at the end of the 6th semester. Specific premium recruiters require a CGPA of 7.50 or 8.00 without historical backlogs.\n2. Backlog Restrictions: Candidates must have zero active (standing) backlogs at the time of recruitment registration. Dead backlogs (cleared prior to 7th semester) are permissible subject to company policies.\n3. Attendance in Training: Mandatory 85% attendance in soft skills, quantitative aptitude, and mock technical interview training conducted during the 5th and 6th semesters.\n\n### B.Tech Eligibility Criteria\nCandidates seeking admission to the First Year B.Tech program must satisfy:\n1. Academic Qualifications: Completion of Higher Secondary Certificate (Class 12 / 10+2) examination from a recognized board (CBSE, ICSE, or State Boards) with Physics and Mathematics as mandatory subjects along with Chemistry, Biotechnology, or Computer Science.\n2. Minimum Aggregate: A minimum of 60% aggregate marks in the PCM subjects (55% for SC/ST/PwD candidates).\n3. Age Limit: Applicants must not be older than 21 years as of July 1, 2026.\n\n## Attendance Requirement and Condonation\n- Mandatory Attendance: Every student must maintain at least 75% attendance in both lectures and practical sessions in each registered course.\n- Medical Condonation: Attendance between 65% and 74% may be condoned by the Dean of Academic Affairs strictly on certified medical grounds or authorized participation in inter-collegiate competitions. Medical certificates must be submitted to the Academic Cell within three working days of resuming classes.\n- Debarment: Students holding less than 65% attendance under any circumstances are strictly debarred from appearing in the ESE and awarded an 'NS' (Not Satisfied attendance) grade, requiring re-registration in the next academic year.\n\n## Evaluation Scheme and Weightage\nEvery lecture course carries a total of 100 marks divided equally between internal continuous evaluation and external final examination:\n1. Continuous Internal Evaluation (CIE) - 50 Marks:\n   - Mid-Term Examinations (Best of two tests): 30 marks\n   - Quizzes, Surprise Tests, and Class Participation: 10 marks\n   - Home Assignments and Mini-Projects: 10 marks\n2. End-Semester Examination (ESE) - 50 Marks:\n   - Comprehensive written test covering the complete semester syllabus.\n\n### Passing Criteria\nTo pass a registered theory or lab course, a student must secure:\n- A minimum of 40% marks in the End-Semester Examination (20 out of 50 marks).\n- A minimum aggregate of 45% marks combining CIE and ESE.",
+        "sources": [
+          "admissions.md",
+          "exams.md",
+          "placements.md"
+        ],
+        "similarity": 0.7241240739822388
+      }
+    },
+    {
+      "id": 19,
+      "question": "What package threshold qualifies as a Super Dream tier job offer?",
+      "category": "placements",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 19,
+        "latency": 1.700012944638729e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 19,
+        "latency": 0.019836399995256215,
+        "passed": true,
+        "answer": "Relevant information from admissions.md, placements.md:\n\n## \"One Student, One Job\" Policy & Upgrade Tiers\nTo ensure equitable career opportunities, GIT enforces a tiered placement policy:\n- Regular Tier: Offers up to INR 7.0 LPA.\n- Dream Tier: Offers between INR 7.1 LPA and INR 14.0 LPA.\n- Super Dream Tier: Offers exceeding INR 14.0 LPA.\n\nA student who secures an offer in the Regular tier is permitted to appear only for Dream and Super Dream companies. Once a student receives a Dream tier offer, they may only attempt Super Dream opportunities. Securing a Super Dream offer concludes the candidate's placement eligibility, ensuring other classmates can access available openings.\n\n## Placement Performance Overview (Class of 2025)\nThe graduating batch of 2025 witnessed record-setting participation from leading international corporations and innovative tech startups:\n- Total Eligible Registered Students: 680\n- Total Job Offers Extended: 812 (including 132 multi-offer achievements)\n- Overall Placement Rate: 94.2% across engineering disciplines\n- Highest International Package: USD 115,000 (INR 96.5 LPA) by a Silicon Valley cloud provider\n- Highest Domestic Package: INR 48.0 LPA by a Tier-1 Fintech major\n- Average Package (Overall Campus): INR 11.2 LPA\n- Average Package for CSE & AI/DS: INR 15.6 LPA\n- Median Package: INR 9.8 LPA\n- Total Companies Visiting: 164 companies\n\n### B.Tech Eligibility Criteria\nCandidates seeking admission to the First Year B.Tech program must satisfy:\n1. Academic Qualifications: Completion of Higher Secondary Certificate (Class 12 / 10+2) examination from a recognized board (CBSE, ICSE, or State Boards) with Physics and Mathematics as mandatory subjects along with Chemistry, Biotechnology, or Computer Science.\n2. Minimum Aggregate: A minimum of 60% aggregate marks in the PCM subjects (55% for SC/ST/PwD candidates).\n3. Age Limit: Applicants must not be older than 21 years as of July 1, 2026.\n\n## Postgraduate Programs (M.Tech and MBA)\n- M.Tech in Software Engineering, VLSI Design, and Thermal Engineering: Requires a relevant B.E./B.Tech degree with minimum 60% marks and a valid GATE score. Non-GATE candidates must qualify in the GIT Graduate Assessment Test (GIT-GAT).\n- Master of Business Administration (MBA): Requires a recognized 3-year bachelor's degree with 55% marks, plus valid CAT, XAT, or MAT scores followed by Group Discussion and Personal Interview.",
+        "sources": [
+          "admissions.md",
+          "placements.md"
+        ],
+        "similarity": 0.6062822043895721
+      }
+    },
+    {
+      "id": 20,
+      "question": "How many total job offers were received by the graduating class of 2025?",
+      "category": "placements",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 20,
+        "latency": 1.800013706088066e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 20,
+        "latency": 0.020482700027059764,
+        "passed": true,
+        "answer": "Relevant information from admissions.md, fees.md, placements.md:\n\n## Placement Performance Overview (Class of 2025)\nThe graduating batch of 2025 witnessed record-setting participation from leading international corporations and innovative tech startups:\n- Total Eligible Registered Students: 680\n- Total Job Offers Extended: 812 (including 132 multi-offer achievements)\n- Overall Placement Rate: 94.2% across engineering disciplines\n- Highest International Package: USD 115,000 (INR 96.5 LPA) by a Silicon Valley cloud provider\n- Highest Domestic Package: INR 48.0 LPA by a Tier-1 Fintech major\n- Average Package (Overall Campus): INR 11.2 LPA\n- Average Package for CSE & AI/DS: INR 15.6 LPA\n- Median Package: INR 9.8 LPA\n- Total Companies Visiting: 164 companies\n\n## Internship Season and Pre-Placement Offers (PPOs)\n- Pre-Final Year Internships: Summer internships are scheduled during May-July (8 to 10 weeks) for third-year students. Average summer stipend for 2025 was INR 45,000 per month, with highest stipend reaching INR 1,25,000 per month.\n- PPO Conversion: 142 students converted their summer internships into full-time Pre-Placement Offers before regular placement season began.\n\n### 1. Undergraduate (B.Tech) Programs\n- Computer Science & Engineering (CSE): INR 2,20,000 per annum (INR 1,10,000 per semester)\n- Artificial Intelligence & Data Science (AI & DS): INR 2,10,000 per annum (INR 1,05,000 per semester)\n- Electronics & Communication Engineering (ECE): INR 1,90,000 per annum (INR 95,000 per semester)\n- Mechanical Engineering & Civil Engineering: INR 1,60,000 per annum (INR 80,000 per semester)\n\n### 2. Postgraduate Programs\n- M.Tech (All Specializations): INR 1,40,000 per annum (INR 70,000 per semester)\n- Master of Business Administration (MBA): INR 2,50,000 per annum (INR 1,25,000 per semester)\n\n## Important Admission Dates (2026)\n- Online Application Portal Opens: February 15, 2026\n- Application Submission Deadline: May 31, 2026 (11:59 PM IST)\n- GIT-EEE Examination Dates: June 15 to June 18, 2026 (Computer-Based Test)\n- Announcement of Results & Merit List: June 28, 2026\n- Phase 1 Counseling & Seat Allocation: July 5 to July 10, 2026\n- Orientation and Document Verification: August 1, 2026\n- Commencement of Classes: August 10, 2026",
+        "sources": [
+          "admissions.md",
+          "fees.md",
+          "placements.md"
+        ],
+        "similarity": 0.5205084085464478
+      }
+    },
+    {
+      "id": 21,
+      "question": "What are the Central Library working hours on weekdays?",
+      "category": "faq",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 21,
+        "latency": 1.7999554984271526e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 21,
+        "latency": 0.021648699999786913,
+        "passed": true,
+        "answer": "Relevant information from exams.md, faq.md:\n\n# Greenfield Institute of Technology - Frequently Asked Questions (FAQ) & Campus Life\n\nThis FAQ document answers common queries regarding student life, campus amenities, rules, administrative procedures, and support services at Greenfield Institute of Technology (GIT).\n\n## 1. Campus Timings, Library, and Computing Facilities\n**Q: What are the Central Library working hours?**  \nA: The Central Library is open Monday to Saturday from 8:00 AM to 11:00 PM, and on Sundays and public holidays from 9:00 AM to 5:00 PM. During mid-term and end-semester examination months, the air-conditioned reading halls remain open 24/7. Students may borrow up to 4 books concurrently for 14 days.\n\n**Q: Are mental health counseling services provided?**  \nA: Yes. The Student Wellness Cell (\"HopeLine\") offers confidential psychological counseling Monday through Friday, 9:00 AM to 6:00 PM in Block D, Room 202, or via booking at `wellness@greenfield.edu`.\n\n## 4. Transportation and Commuting\n**Q: Is college bus transportation available for day scholars?**  \nA: Yes. GIT operates an institutional fleet of 22 GPS-tracked air-conditioned buses traversing 14 city routes. The annual bus transportation pass fee is INR 26,000 payable at the start of each academic year.\n\n**Q: How do students connect to campus Wi-Fi?**  \nA: Connect to the SSID `GIT-CampusNet` or `GIT-HostelNet`. Authenticate using your student ERP roll number and default initial password (`Git@<DateOfBirth_DDMMYYYY>`). Network access provides high-speed 1 Gbps fiber connectivity. For connection issues, contact `it-support@greenfield.edu` or visit Room 104 in the Computer Center.\n\n## 2. Residential Regulations and Hostel Life\n**Q: What is the hostel curfew and in-time rule?**  \nA: For student safety, residential hostels enforce a strict in-time of 9:30 PM from Monday through Friday, and 10:30 PM on Saturdays and Sundays. Biometric thumb verification is recorded at hostel gates.\n\n## Semester Structure and Examination Schedule\nGIT operates on a Choice-Based Credit System (CBCS) across two main semesters per year:\n- Autumn Semester: August to December.\n  - Mid-Term 1 (CIE-I): Last week of September.\n  - Mid-Term 2 (CIE-II): Second week of November.\n  - Practical & Laboratory Exams: First week of December.\n  - End-Semester Theory Examination (ESE): December 10 to December 24.\n- Spring Semester: January to May.\n  - Mid-Term 1 (CIE-I): Fourth week of February.\n  - Mid-Term 2 (CIE-II): First week of April.\n  - Practical & Laboratory Exams: First week of May.\n  - End-Semester Theory Examination (ESE): May 12 to May 26.\n- Summer Remedial Term: June 15 to July 15 (reserved for students clearing backlogs or pursuing fast-track credits).",
+        "sources": [
+          "exams.md",
+          "faq.md"
+        ],
+        "similarity": 0.6116748452186584
+      }
+    },
+    {
+      "id": 22,
+      "question": "What is the hostel in-time curfew on weeknights?",
+      "category": "faq",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 22,
+        "latency": 1.800013706088066e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 22,
+        "latency": 0.025689099973533303,
+        "passed": true,
+        "answer": "Relevant information from faq.md, fees.md:\n\n**Q: How do students connect to campus Wi-Fi?**  \nA: Connect to the SSID `GIT-CampusNet` or `GIT-HostelNet`. Authenticate using your student ERP roll number and default initial password (`Git@<DateOfBirth_DDMMYYYY>`). Network access provides high-speed 1 Gbps fiber connectivity. For connection issues, contact `it-support@greenfield.edu` or visit Room 104 in the Computer Center.\n\n## 2. Residential Regulations and Hostel Life\n**Q: What is the hostel curfew and in-time rule?**  \nA: For student safety, residential hostels enforce a strict in-time of 9:30 PM from Monday through Friday, and 10:30 PM on Saturdays and Sundays. Biometric thumb verification is recorded at hostel gates.\n\n## Hostel Accommodation and Mess Charges\nLiving on campus is optional for day scholars but mandatory for outstation first-year students:\n- Premium Double Sharing (Air Conditioned with attached bath): INR 1,20,000 per academic year\n- Standard Double Sharing (Non-AC with common bath): INR 85,000 per academic year\n- Triple Sharing Room (Non-AC): INR 65,000 per academic year\n- Annual Mess Charges (Four meals daily: Breakfast, Lunch, Evening Snacks, Dinner): INR 52,000 per academic year\n- Hostel Security Deposit: INR 5,000 (Refundable)\n\n# Greenfield Institute of Technology - Frequently Asked Questions (FAQ) & Campus Life\n\nThis FAQ document answers common queries regarding student life, campus amenities, rules, administrative procedures, and support services at Greenfield Institute of Technology (GIT).\n\n## 1. Campus Timings, Library, and Computing Facilities\n**Q: What are the Central Library working hours?**  \nA: The Central Library is open Monday to Saturday from 8:00 AM to 11:00 PM, and on Sundays and public holidays from 9:00 AM to 5:00 PM. During mid-term and end-semester examination months, the air-conditioned reading halls remain open 24/7. Students may borrow up to 4 books concurrently for 14 days.\n\n**Q: How do students request overnight or weekend leaves?**  \nA: Overnight and weekend out-passes must be submitted through the Greenfield Student ERP App at least 24 hours prior to departure. Parental SMS approval is triggered automatically; exit without approval incurs a disciplinary warning and INR 500 fine.\n\n## 3. Healthcare, Emergencies, and Wellness\n**Q: What medical facilities are available on campus?**  \nA: The GIT Health Center is operational 24/7 with full-time resident doctors, nursing staff, and emergency medical supplies. Two dedicated ambulances are stationed round-the-clock for transfer to City Memorial Hospital (3 km away). Basic consultations, prescription drugs, and first aid are provided free of charge under student medical coverage.",
+        "sources": [
+          "faq.md",
+          "fees.md"
+        ],
+        "similarity": 0.5098236799240112
+      }
+    },
+    {
+      "id": 23,
+      "question": "What is the name and month of GIT's annual cultural festival?",
+      "category": "faq",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 23,
+        "latency": 1.6999547369778156e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 23,
+        "latency": 0.022687300050165504,
+        "passed": true,
+        "answer": "Relevant information from admissions.md, exams.md, faq.md:\n\n## 5. Sports, Gym, and Extracurricular Life\n**Q: What sports and recreation facilities exist?**  \nA: GIT boasts an Olympic-size swimming pool, 4 synthetic badminton courts, 2 basketball courts, 1 floodlit cricket/football oval, and indoor table tennis. The multi-gymnasium is open daily from 6:00 AM to 9:00 AM and 4:30 PM to 8:30 PM with certified fitness trainers.\n\n**Q: What are the flagship annual campus festivals?**  \nA: GIT organizes two marquee festivals:\n- `Technovate`: Annual international technical symposium held in mid-October.\n- `Aura`: Inter-university cultural fest held in the third week of February.\nThere are also over 35 active student clubs covering robotics, coding, drama, music, astronomy, and photography.\n\n## Semester Structure and Examination Schedule\nGIT operates on a Choice-Based Credit System (CBCS) across two main semesters per year:\n- Autumn Semester: August to December.\n  - Mid-Term 1 (CIE-I): Last week of September.\n  - Mid-Term 2 (CIE-II): Second week of November.\n  - Practical & Laboratory Exams: First week of December.\n  - End-Semester Theory Examination (ESE): December 10 to December 24.\n- Spring Semester: January to May.\n  - Mid-Term 1 (CIE-I): Fourth week of February.\n  - Mid-Term 2 (CIE-II): First week of April.\n  - Practical & Laboratory Exams: First week of May.\n  - End-Semester Theory Examination (ESE): May 12 to May 26.\n- Summer Remedial Term: June 15 to July 15 (reserved for students clearing backlogs or pursuing fast-track credits).\n\n## Important Admission Dates (2026)\n- Online Application Portal Opens: February 15, 2026\n- Application Submission Deadline: May 31, 2026 (11:59 PM IST)\n- GIT-EEE Examination Dates: June 15 to June 18, 2026 (Computer-Based Test)\n- Announcement of Results & Merit List: June 28, 2026\n- Phase 1 Counseling & Seat Allocation: July 5 to July 10, 2026\n- Orientation and Document Verification: August 1, 2026\n- Commencement of Classes: August 10, 2026",
+        "sources": [
+          "admissions.md",
+          "exams.md",
+          "faq.md"
+        ],
+        "similarity": 0.6243939399719238
+      }
+    },
+    {
+      "id": 24,
+      "question": "How much does the annual college bus transportation pass cost?",
+      "category": "faq",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 24,
+        "latency": 1.600012183189392e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 24,
+        "latency": 0.01806199998827651,
+        "passed": true,
+        "answer": "Relevant information from faq.md, fees.md:\n\n**Q: Are mental health counseling services provided?**  \nA: Yes. The Student Wellness Cell (\"HopeLine\") offers confidential psychological counseling Monday through Friday, 9:00 AM to 6:00 PM in Block D, Room 202, or via booking at `wellness@greenfield.edu`.\n\n## 4. Transportation and Commuting\n**Q: Is college bus transportation available for day scholars?**  \nA: Yes. GIT operates an institutional fleet of 22 GPS-tracked air-conditioned buses traversing 14 city routes. The annual bus transportation pass fee is INR 26,000 payable at the start of each academic year.\n\n## Hostel Accommodation and Mess Charges\nLiving on campus is optional for day scholars but mandatory for outstation first-year students:\n- Premium Double Sharing (Air Conditioned with attached bath): INR 1,20,000 per academic year\n- Standard Double Sharing (Non-AC with common bath): INR 85,000 per academic year\n- Triple Sharing Room (Non-AC): INR 65,000 per academic year\n- Annual Mess Charges (Four meals daily: Breakfast, Lunch, Evening Snacks, Dinner): INR 52,000 per academic year\n- Hostel Security Deposit: INR 5,000 (Refundable)\n\n## Additional Mandatory One-Time and Recurring Charges\n- Caution Deposit (Refundable upon graduation/clearance): INR 15,000 (one-time at admission)\n- Admission & Registration Fee: INR 10,000 (one-time, non-refundable)\n- Examination & Library Fee: INR 8,000 per annum\n- Student Development, Gymkhana & Cultural Activity Fee: INR 6,000 per annum\n- Mandatory Group Medical Insurance Cover: INR 2,500 per annum\n\n**Q: How do students request overnight or weekend leaves?**  \nA: Overnight and weekend out-passes must be submitted through the Greenfield Student ERP App at least 24 hours prior to departure. Parental SMS approval is triggered automatically; exit without approval incurs a disciplinary warning and INR 500 fine.\n\n## 3. Healthcare, Emergencies, and Wellness\n**Q: What medical facilities are available on campus?**  \nA: The GIT Health Center is operational 24/7 with full-time resident doctors, nursing staff, and emergency medical supplies. Two dedicated ambulances are stationed round-the-clock for transfer to City Memorial Hospital (3 km away). Basic consultations, prescription drugs, and first aid are provided free of charge under student medical coverage.",
+        "sources": [
+          "faq.md",
+          "fees.md"
+        ],
+        "similarity": 0.5665784180164337
+      }
+    },
+    {
+      "id": 25,
+      "question": "What is the 24/7 campus Anti-Ragging Helpline phone number?",
+      "category": "faq",
+      "is_out_of_scope": false,
+      "llm_alone": {
+        "id": 25,
+        "latency": 1.700012944638729e-06,
+        "passed": false,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 25,
+        "latency": 0.02122229995438829,
+        "passed": true,
+        "answer": "Relevant information from faq.md:\n\n## 6. Safety, Anti-Ragging, and Grievances\n**Q: What is the college policy on ragging?**  \nA: GIT strictly maintains zero-tolerance toward ragging. Any involvement in verbal, physical, or online harassment leads to immediate suspension and criminal prosecution under state law. The 24/7 Anti-Ragging Helpline is +91-1800-425-9988, and complaints can be emailed to `antiragging@greenfield.edu`.\n\n**Q: How do students request overnight or weekend leaves?**  \nA: Overnight and weekend out-passes must be submitted through the Greenfield Student ERP App at least 24 hours prior to departure. Parental SMS approval is triggered automatically; exit without approval incurs a disciplinary warning and INR 500 fine.\n\n## 3. Healthcare, Emergencies, and Wellness\n**Q: What medical facilities are available on campus?**  \nA: The GIT Health Center is operational 24/7 with full-time resident doctors, nursing staff, and emergency medical supplies. Two dedicated ambulances are stationed round-the-clock for transfer to City Memorial Hospital (3 km away). Basic consultations, prescription drugs, and first aid are provided free of charge under student medical coverage.\n\n**Q: Are mental health counseling services provided?**  \nA: Yes. The Student Wellness Cell (\"HopeLine\") offers confidential psychological counseling Monday through Friday, 9:00 AM to 6:00 PM in Block D, Room 202, or via booking at `wellness@greenfield.edu`.\n\n## 4. Transportation and Commuting\n**Q: Is college bus transportation available for day scholars?**  \nA: Yes. GIT operates an institutional fleet of 22 GPS-tracked air-conditioned buses traversing 14 city routes. The annual bus transportation pass fee is INR 26,000 payable at the start of each academic year.\n\n**Q: How do students connect to campus Wi-Fi?**  \nA: Connect to the SSID `GIT-CampusNet` or `GIT-HostelNet`. Authenticate using your student ERP roll number and default initial password (`Git@<DateOfBirth_DDMMYYYY>`). Network access provides high-speed 1 Gbps fiber connectivity. For connection issues, contact `it-support@greenfield.edu` or visit Room 104 in the Computer Center.\n\n## 2. Residential Regulations and Hostel Life\n**Q: What is the hostel curfew and in-time rule?**  \nA: For student safety, residential hostels enforce a strict in-time of 9:30 PM from Monday through Friday, and 10:30 PM on Saturdays and Sundays. Biometric thumb verification is recorded at hostel gates.",
+        "sources": [
+          "faq.md"
+        ],
+        "similarity": 0.459409236907959
+      }
+    },
+    {
+      "id": 26,
+      "question": "How do I bake a gluten-free chocolate lava cake?",
+      "category": "out_of_scope",
+      "is_out_of_scope": true,
+      "llm_alone": {
+        "id": 26,
+        "latency": 1.6999547369778156e-06,
+        "passed": true,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 26,
+        "latency": 0.021587299997918308,
+        "passed": true,
+        "answer": "I couldn't find this in the college documents. If you need further assistance with this topic, please use the 'Talk to a human' option below to submit a ticket to our campus advisory team.",
+        "sources": [],
+        "similarity": 0.16373950242996216
+      }
+    },
+    {
+      "id": 27,
+      "question": "What is the current population and capital city of Australia?",
+      "category": "out_of_scope",
+      "is_out_of_scope": true,
+      "llm_alone": {
+        "id": 27,
+        "latency": 1.9000144675374031e-06,
+        "passed": true,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 27,
+        "latency": 0.020951699989382178,
+        "passed": true,
+        "answer": "I couldn't find this in the college documents. If you need further assistance with this topic, please use the 'Talk to a human' option below to submit a ticket to our campus advisory team.",
+        "sources": [],
+        "similarity": 0.14385753870010376
+      }
+    },
+    {
+      "id": 28,
+      "question": "Who won the FIFA Men's World Cup in Qatar in 2022?",
+      "category": "out_of_scope",
+      "is_out_of_scope": true,
+      "llm_alone": {
+        "id": 28,
+        "latency": 2.200016751885414e-06,
+        "passed": true,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 28,
+        "latency": 0.01923839998198673,
+        "passed": true,
+        "answer": "I couldn't find this in the college documents. If you need further assistance with this topic, please use the 'Talk to a human' option below to submit a ticket to our campus advisory team.",
+        "sources": [],
+        "similarity": 0.1931430697441101
+      }
+    },
+    {
+      "id": 29,
+      "question": "Can you provide the source code to implement a red-black tree in C++?",
+      "category": "out_of_scope",
+      "is_out_of_scope": true,
+      "llm_alone": {
+        "id": 29,
+        "latency": 2.00001522898674e-06,
+        "passed": true,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 29,
+        "latency": 0.02367480000248179,
+        "passed": true,
+        "answer": "I couldn't find this in the college documents. If you need further assistance with this topic, please use the 'Talk to a human' option below to submit a ticket to our campus advisory team.",
+        "sources": [],
+        "similarity": 0.13555210828781128
+      }
+    },
+    {
+      "id": 30,
+      "question": "What are the rules and scoring system for professional baseball in MLB?",
+      "category": "out_of_scope",
+      "is_out_of_scope": true,
+      "llm_alone": {
+        "id": 30,
+        "latency": 2.00001522898674e-06,
+        "passed": true,
+        "answer": "I do not have specific internal information about Greenfield Institute of Technology policies."
+      },
+      "rag_pipeline": {
+        "id": 30,
+        "latency": 0.021295499987900257,
+        "passed": true,
+        "answer": "I couldn't find this in the college documents. If you need further assistance with this topic, please use the 'Talk to a human' option below to submit a ticket to our campus advisory team.",
+        "sources": [],
+        "similarity": 0.24416375160217285
+      }
+    }
+  ]
+}
